@@ -1,0 +1,33 @@
+.All_Contents_Div{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vw;
+    margin-top: 90px;
+    margin-bottom: 222px;
+}
+
+.All_Contents_Nav_Div{
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.All_Contents_Nav_Div_Div{
+    display: flex;
+    width: 1060px;
+}
+
+
+.All_Contents_Main_Div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+}
+.All_Contents_Main_Div_Div{
+    display: flex;
+    width: 1060px;
+    height: 100%;
+    flex-direction: column;
+}

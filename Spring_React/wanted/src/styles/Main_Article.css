@@ -1,0 +1,13 @@
+.Main_Article_Div{
+    display: flex;
+    justify-content: center;
+}
+
+.Main_Article_Div_Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1060px;
+    border-bottom: 1px solid #e1e2e3;
+    padding: 60px 0;
+}

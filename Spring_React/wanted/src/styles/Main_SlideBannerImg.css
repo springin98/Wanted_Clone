@@ -1,0 +1,43 @@
+.Main_SlideBannerImg_Informaiton_Div{
+    width: 330px;
+    height: 146px;
+    position: absolute;
+    z-index: 10;
+    left: 24px;
+    bottom: 24px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.Main_SlideBannerImg{
+    border-radius: 4px;
+}
+
+.Main_SlideBannerImg_Text_Div{
+    border-bottom: 1px solid #e1e2e3;
+    padding: 20px;
+}
+
+.Main_SlideBannerImg_Title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.Main_SlideBannerImg_Contents{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.64;
+}
+
+.Main_SlideBannerImg_Address_Button_Div{
+    padding: 6px 20px 0;
+}
+.Main_SlideBannerImg_Address_Button{
+    padding: 6px 8px;
+    margin-top: 6px;
+}
+.Main_SlideBannerImg_Address{
+    color: #36f;
+    font-size: 14px;
+    font-weight: 700;
+}

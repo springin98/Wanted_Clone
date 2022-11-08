@@ -1,0 +1,214 @@
+.Login_Div_Div{
+    height: fit-content;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #e1e2e3;
+    width: 400px;
+    height: calc(100vh - 100px);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.Login_LogoSvg_Div{
+    display: flex;
+    justify-content: center;
+    height: 64px;
+    width: 100%;
+    padding: 20px 0;
+}
+.Login_Title_svg{
+    width: 140px;
+    opacity: 0.8;
+}
+
+.Login_Body_Div{
+    padding: 20px;
+}
+.Login_Body_Div_Div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Login_Title_Div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Login_Title{
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 19px;
+}
+.Login_Title_SubText{
+    text-align: center;
+    color: #888;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 12.5px 0;
+}
+
+
+.Login_Email_Div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.Login_Email_Label{
+    color: #888;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 17px 0px 7px;
+}
+.Login_Email_input{
+    width: 93%;
+    height: 50px;
+    min-height: 50px;
+    padding: 0px 12px;
+    outline: none;
+    background-color: transparent;
+    color: #333;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.Login_Email_input::placeholder{
+    color: #e1e2e3;
+}
+.Login_Email_input_grayBorder{
+    border: 1px solid #e1e2e3;
+}
+.Login_Email_input_redBorder{
+    border: 1px solid #fe415c;
+}
+.Login_Email_input_blueBorder{
+    border: 1px solid #36f;
+}
+.Login_Input_WrongText{
+    color: #fe415c;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+.Login_Email_Button{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    margin: 30px 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #36f;
+    color:#fff;
+}
+.Login_Email_Button:disabled {
+    color:#ccc;
+    background-color: #f2f4f7;
+}
+
+.Login_Text_Or_Div{
+    margin: 5px 0 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Login_Text_Or{
+    text-align: center;
+    color: #939393;
+    font-size: 12px;
+    font-weight: 600;;
+    width: 100%;
+}
+
+
+.Login_Icons{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e1e2e3;
+    width: 100%;
+}
+.Login_Icon{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.Login_Icons_Text{
+    margin-top: 8px;
+    text-align: center;
+    color: #888;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 14px;
+}
+.Login_Icon > button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Login_Icon_Style{
+    width: 55px;
+    height: 55px;
+}
+
+
+.Login_Section_Div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.Login_Section_Link{
+    margin-bottom: 15px;
+}
+.Login_Section_Link_Terms{
+    margin-right: 12px;
+}
+.Login_Section_Link_Style{
+    color: #767676;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+}
+.Login_Section_Text{
+    margin-bottom: 30px;
+    color: #888;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+.Login_Section_Language{
+    display: flex;
+    justify-content: center;
+    width: 140px;
+    position: relative;
+}
+.Login_Section_Language > img{
+    width: 23px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid #e1e2e3;
+    position: absolute;
+    z-index: 10;
+    left: 10%;
+    top: 25%;
+}
+.Login_Section_Language > select{
+    padding: 0 0 0 45px;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    height: 34px;
+    width: 138px;
+    border-radius: 5px;
+    border: 1px solid #e1e2e3;
+    background-color: #fff;
+}

@@ -1,0 +1,264 @@
+.Detail_Main_Div{
+    display: flex;
+    flex-direction: column;
+}
+
+.Detail_Main_ImgSlider{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    position: relative;
+}
+.Detail_Main_Button_Div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.Detail_Main_Button_Style{
+    font-size: 16px;
+    color: #b5b5b5;
+    opacity: .7;
+    height: 100%;
+    width: 9%;
+}
+.Detail_Main_Img{
+    width: 100%;
+    height: 490px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.Detail_Main_Text_Div{
+    padding-right: 20px;
+    margin: 40px 0 60px;
+}
+.Detail_Main_Text_Div_Div{
+    display: flex;
+    flex-direction: column;
+}
+.Detail_Main_Text_Title{
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+.Detail_Main_Text{
+    color: #333;
+    font-weight: 400;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.Detail_Main_Text_Company_Div{
+    display: flex;
+}
+.Detail_Main_Text_Company{
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.Detail_Main_Text_Company_Response_Style{
+    border-radius: 2px;
+    background-color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    height: 19px;
+    line-height: 19px;
+    padding: 0 5px;
+}
+.Detail_Main_Text_Company_Response_Blue{
+    border: 1px solid #855af0;
+    color: #855af0;
+}
+.Detail_Main_Text_Company_Response_Green{
+    border: 1px solid #00aead;
+    color: #00aead;
+}
+.Detail_Main_Text_Company_Place{
+    padding: 0 10px;
+    white-space: nowrap;
+    color: #999;
+    font-size: 14px;
+}
+
+.Detail_Main_Text_TagList{
+    margin: 20px 0;
+}
+.Detail_Main_Text_TagButton_Style{
+    margin-right: 6px;
+    margin-bottom: 10px;
+    padding: 9px 14px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #333;
+    background-color: #f3f5f8;
+    border-radius: 25px;
+}
+
+.Detail_Main_Text_Skill_Div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0;;
+}
+.Detail_Main_Text_Skill_Div > h3{
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75;
+}
+.Detail_Main_Text_SkillList{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    grid-gap: 10px 8px;
+    gap: 10px 8px;
+}
+.Detail_Main_Text_Skill{
+    background-color: #e4f4ec;
+    border-radius: 20px;
+    padding: 9px 14px;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+
+.Detail_Main_SubText_Div{
+    border-top: 1px solid #e1e2e2;
+    padding-top: 20px;
+}
+.Detail_Main_SubText_Div_Div{
+    display: flex;
+    margin-bottom: 20px;
+}
+.Detail_Main_SubText_Head{
+    color: #999;
+    width: 80px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.Detail_Main_SubText_Detail{
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Detail_Main_MapImg{
+    width: 700px;
+    height: 254px;
+    object-fit: cover;
+}
+
+
+.Detail_Main_CompanyInfo_Div{
+    margin-top: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    border: 1px solid #e1e2e3;
+}
+.Detail_Main_CompanyInfo_Div_Div{
+    display: flex;
+}
+.Detail_Main_CompanyInfo_Div_Div_Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Detail_Main_CompanyInfo_Company{
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 5px;
+    word-break: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-right: 10px;
+}
+.Detail_Main_CompanyInfo_CompanyTag{
+    color: #999;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    padding-right: 10px;
+}
+.Detail_Main_CompanyLogo{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    padding-right: 15px;
+}
+.Detail_Main_CompanyInfo_FollowButton{
+    border: 1px solid #e1e2e3;
+    border-radius: 25px;
+    height: 40px;
+    min-width: 64px;
+    background-color: #fff;
+    padding: 0 27px;
+    color: #36f;
+    font-size: 15px;
+    font-weight: 700;
+}
+.Detail_Main_CompanyInfo_FollowButton:hover{
+    color: #002fdb;
+}
+
+
+
+.Detail_Main_Copyright_Visible_Div{
+    display: flex;
+    flex-direction: column;
+}
+
+.Detail_Main_Copyright_Div{
+    padding: 25px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #f3f5f8;
+    display: flex;
+    justify-content: space-between;
+}
+.Detail_Main_Copyright_Div_Div{
+    display: flex;
+}
+.Detail_Main_Copyright_Svg_Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Detail_Main_Copyright_Text{
+    margin: 0 20px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #333;
+}
+.Detail_Main_Copyright_More_Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Detail_Main_Copyright_More{
+    font-size: 10px;
+    color: #333;
+}
+.Detail_Main_Copyright_More_Div{
+    padding: 13px 30px 30px;
+    border-top: 1px solid #ececec;
+    background-color: #f3f5f8;
+    font-size: 13px;
+    line-height: 24px;
+    color: #666;
+}

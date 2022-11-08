@@ -1,0 +1,5 @@
+.Main_VOD_Contents_Ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,12 @@
+.Main_Event_Div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.Main_Event_Div_Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1060px;
+}

@@ -1,0 +1,30 @@
+.Main_Employment_li{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ececec;
+    width: 25%;
+}
+
+.Main_Employment_li_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.Main_Employment_li_svg_Div, .Main_Employment_li_Title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Main_Emplyment_li_svg{
+    width: 32px;
+    height: 32px;
+    margin-top: 18px;
+}
+
+.Main_Employment_li_Title{
+    padding: 18px 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}

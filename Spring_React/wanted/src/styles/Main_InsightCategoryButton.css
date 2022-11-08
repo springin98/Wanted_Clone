@@ -1,0 +1,17 @@
+.Main_InsightCategoryButton_Button{
+    color: #888;
+    padding: 9px 22px;
+    font-weight: 600;
+    font-size: 15px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #e1e2e3;
+    border-radius: 25px;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 8px;
+}
+
+.Main_InsightCategoryButton_Button:hover{
+    background-color: #e1e2e3;
+}

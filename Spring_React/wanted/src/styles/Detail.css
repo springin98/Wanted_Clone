@@ -1,0 +1,18 @@
+.Detail_Div{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 50px;
+}
+
+.Detail_Div_Div{
+    display: flex;
+    flex-direction: column;
+}
+
+.Detail_Div_Div_Div{
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+    padding: 20px 0 80px;
+}

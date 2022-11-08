@@ -1,0 +1,98 @@
+.Detail_Position_li{
+    width: 25%;
+    display: flex;
+    padding: 10px;
+    position: relative;
+}
+
+.Detail_Position_li_img{
+    width: 250px;
+    height: 187.5px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 10%);
+}
+
+.Detail_Position_li_bookmark_out{
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.9;
+    z-index: 10;
+    position: absolute;
+    top: 12px;
+    right: 8px;
+}
+.Detail_Position_li_bookmark_in{
+    font-size: 15.5px;
+    color: rgb(80, 80, 80);
+    opacity: 0.5;
+    z-index: 20;
+    position: absolute;
+    top: 15px;
+    right: 9.5px;
+}
+
+.Detail_Position_li_Text_Div{
+    padding: 14px 0;
+    display: flex;
+    flex-direction: column;
+}
+.Detail_Position_li_title{
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    position: relative;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    max-height: 2.4em;
+    overflow: hidden;
+    text-align: left;
+    word-break: break-word;
+}
+.Detail_Position_li_Text_Style{
+    font-size: 14px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: left;
+    word-break: break-word;
+}
+
+.Detail_Position_li_company{
+    color: #333;
+    font-weight: 600;
+}
+
+.Detail_Position_li_responseButton{
+    border: 1px solid #00aead;
+    color: #00aead;
+    border-radius: 2px;
+    background-color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    height: 19px;
+    line-height: 19px;
+    margin-top: 4px;
+    padding: 0 5px;
+}
+
+.Detail_Position_li_place{
+    font-weight: 400;
+    color: #999;
+}
+
+
+.Detail_Position_li_compensation_Div{
+    display: flex;
+    margin-top: 10px;
+}
+.Detail_Position_li_compensation_Text_Style{
+    font-size: 14px;
+    font-weight: 500;
+}

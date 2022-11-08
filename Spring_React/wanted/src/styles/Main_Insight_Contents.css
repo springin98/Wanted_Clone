@@ -1,0 +1,5 @@
+.Main_Insight_Contents{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}

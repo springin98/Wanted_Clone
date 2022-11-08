@@ -1,0 +1,27 @@
+.Main_Employment_Div{
+    display: flex;
+    width: 100%;
+    padding: 60px 0 80px 0;
+    justify-content: center;
+}
+
+.Main_Employment_Div_Div{
+    display: flex;
+    width: 1060px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Main_Employment_Title{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.Main_Employment_ul{
+    display: flex;
+    border: 1px solid #ececec;
+    border-right: none;
+}

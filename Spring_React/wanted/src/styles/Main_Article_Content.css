@@ -1,0 +1,31 @@
+.Main_Article_Content{
+    display: flex;
+    flex-direction: column;
+    width: calc(25% - 20px);
+    margin: 0 10px 50px;
+}
+
+.Main_Article_Content_Img{
+    width: 250px;
+    height: 175px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.Main_Article_Content_Title{
+    margin-top: 17px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    overflow: hidden;
+    color: #333;
+}
+
+.Main_Article_Content_Tag{
+    margin-top: 13px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+}

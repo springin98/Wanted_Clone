@@ -1,0 +1,50 @@
+.All_Contents_Nav_Component_Div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: sticky;
+}
+
+
+.All_Contents_Nav_Title_Div{
+    display: flex;
+}
+
+
+.All_Contents_Nav_Title_Div_Div{
+    padding-right: 24px;
+    border-right: 3px solid #ececec;
+    border-radius: 0.5px;
+    text-align: center;
+    display: flex;
+}
+.All_Contents_Nav_Title_CategoryTitle{
+    padding-top: 3px;
+    margin-right: 15.5px;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #333;
+}
+.All_Contents_Nav_Title_Arrow_Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.All_Contents_Nav_Title_Arrow{
+    border: 1px solid #e1e2e3;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 26px;
+    height: 26px;
+    color: rgb(118, 118, 118);
+    padding-top: 4px;
+}
+.All_Contents_Nav_Title_Text{
+    padding: 3px 0 0 24px;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #aaa;
+}

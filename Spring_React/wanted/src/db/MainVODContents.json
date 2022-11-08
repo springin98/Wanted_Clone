@@ -1,0 +1,36 @@
+{
+"contents": [
+    {
+      "id" : "0",
+      "link": "https://image.wanted.co.kr/optimize?src=http%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211111%2F10%2F24788089.jpg&w=800&q=75",
+      "time": "58:29",
+      "interviewee": "피플펀드 권순관,드림어스 제정민",
+      "title": "신입 개발자의 취업 성공기",
+      "info": "신입 개발자의 취업 성공기 : Live Talk #50"
+    },
+    {
+      "id" : "1",
+      "link": "https://image.wanted.co.kr/optimize?src=http%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20210609%2F7%2F01781563.jpg&w=800&q=75",
+      "time": "1:15:37",
+      "interviewee": "노무법인미담 김동미",
+      "title": "선택적 근로시간제의 모든것 (주52시간제 정착 시리즈3)",
+      "info": "선택적 근로시간제의 모든 것 (주52시간제 정착 시리즈3) : Wanted HR Open Class"
+    },
+    {
+      "id" : "2",
+      "link": "https://image.wanted.co.kr/optimize?src=http%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20210521%2F7%2F68765761.jpg&w=800&q=75",
+      "time": "1:29:15",
+      "interviewee": "리더의대화연구소 서수한",
+      "title": "함께 일하고 싶은 리더가 되는 질문법",
+      "info": "일잘러의 무기는 테크닉일까, 마인드셋일까 : Live Talk #26"
+    },
+    {
+      "id" : "3",
+      "link": "https://image.wanted.co.kr/optimize?src=http%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20210512%2F2%2F32385576.jpg&w=800&q=75",
+      "time": "39:34",
+      "interviewee": "애프터모멘트 박창선",
+      "title": "터지는 콘텐츠는 이렇게 만듭니다 Part 3 : 위트와 무리수레벨 조절하기 - 박창선",
+      "info": "터지는 콘텐츠는 이렇게 만듭니다 : Wanted How To"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+.All_Contents_Nav_Sticky_Div{
+    height: 100vw;
+    width: 100%;
+}
+.All_Contents_Nav_Sticky_Div_Div{
+    width: 100%;
+    top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e1e2e3;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.All_Contents_Nav_Category_Div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #e1e2e3;
+    width: 100%;
+}
+.All_Contents_Nav_Category_BtnStyle{
+    height: 40px;
+    padding:  0 15px;
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    margin-right: 10px;
+}
+.All_Contents_Nav_Category_Btn_TextStyle_Basic{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+.All_Contents_Nav_Category_Btn_TextStyle_Blue{
+    font-size: 14px;
+    font-weight: 600;
+    color: #36f;
+    margin: 0 10px 0 15px;
+}
+.All_Contents_Nav_Category_Btn_Skill_Margin{
+    margin-right: 20px;
+}
+
+
+.All_Contents_Nav_Select_BtnStyle{
+    height: 40px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.All_Contents_Nav_Select{
+    appearance:none;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.All_Contents_Nav_Welfare_Div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+.All_Contents_Nav_Welfare_Btn{
+    height: 32px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-right: 8px;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #333;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    color: rgb(119, 119, 119);
+    display: inline-flex;
+}
+.All_Contents_Nav_Welfare_Btn:hover {
+    border: 1px solid rgba(51,102,255,.3);
+}
+
+.All_Contents_Nav_Welfare_SlideBtn_Style{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e1e2e3;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 10px;
+    position: absolute;
+}
+
+.All_Contents_Nav_Welfare_SlideBtn_Left{
+    left: 0;
+}
+.All_Contents_Nav_Welfare_SlideBtn_Right{
+    right: 0;
+}
+
+.All_Contents_Nav_Welfare_Btn_green{
+    background-color: rgb(242, 251, 245);
+}
+.All_Contents_Nav_Welfare_Btn_blue{
+    background-color: rgb(239, 241, 251);
+}
+.All_Contents_Nav_Welfare_Btn_purple{
+    background-color: rgb(243, 242, 251);
+}
+.All_Contents_Nav_Welfare_Btn_yellow{
+    background-color: rgb(246, 248, 238);
+}
+.All_Contents_Nav_Welfare_Btn_pink{
+    background-color: rgb(247, 242, 249);
+}
+
+.All_Contents_Nav_Welfare_Btn_img{
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+}

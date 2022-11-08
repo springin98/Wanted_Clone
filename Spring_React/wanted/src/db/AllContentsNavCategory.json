@@ -1,0 +1,22 @@
+{
+    "category" : ["전체", "개발", "경영,비즈니스", "마케팅,광고",  "디자인",  "영업", 
+    "고객서비스,리테일", "게임 제작",  "HR", "미디어", "엔지니어링,설계", "금융", 
+    "제조,생산", "물류, 무역", "의료, 제약, 바이오", "교육", "법률, 법집행기관", 
+    "식음료", "건설,시설", "공공,복지"],
+    "welfare" : [
+        {"id" : "0", "title" : "연봉이 최고의 복지", "color" : "green", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F634f02e0-9f6e-11ec-b909-0242ac120002.png&w=50&q=75"},
+        {"id" : "1", "title" : "재택근무", "color" : "blue", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F5d873f3a-9f6e-11ec-b909-0242ac120002.png&w=50&q=75"},
+        {"id" : "2", "title" : "퇴사율 10% 이하", "color" : "purple", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F7d3cdb3c-9f6e-11ec-b909-0242ac120002.png&w=50&q=75"},
+        {"id" : "3", "title" : "급성장 중", "color" : "yellow", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F37dacf86-9f6e-11ec-b909-0242ac120002.png&w=50&q=75"},
+        {"id" : "4", "title" : "병역특례", "color" : "pink", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F6eda33d2-9f6e-11ec-b909-0242ac120002.png&w=50&q=75"},
+        {"id" : "5", "title" : "50인 이하", "color" : "green", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F3a965d18-c524-11ec-901c-acde48001122.png&w=50&q=75"},
+        {"id" : "6", "title" : "50인 이상", "color" : "purple", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F4cec3244-c524-11ec-901c-acde48001122.png&w=50&q=75"},
+        {"id" : "7", "title" : "엽력 5년 이상", "color" : "green", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F45bb9794-c524-11ec-901c-acde48001122.png&w=50&q=75"},
+        {"id" : "8", "title" : "유연근무", "color" : "blue", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F827f6146-9f6e-11ec-b909-0242ac120002.png&w=50&q=75"},
+        {"id" : "9", "title" : "자유로운 휴가", "color" : "purple", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F68dadb80-9f6e-11ec-b909-0242ac120002.png&w=50&q=75"},
+        {"id" : "10", "title" : "일한만큼 받는 보상", "color" : "yellow", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F472333e8-9f6e-11ec-b909-0242ac120002.png&w=50&q=75"},
+        {"id" : "11", "title" : "수평적 문화", "color" : "pink", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F78563d98-9f6e-11ec-b909-0242ac120002.png&w=50&q=75"},
+        {"id" : "12", "title" : "요즘 뜨는 산업", "color" : "green", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F4e1b135a-9f6e-11ec-b909-0242ac120002.png&w=50&q=75"},
+        {"id" : "13", "title" : "식사간식 제공", "color" : "purple", "img" : "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F53ca893e-9f6e-11ec-b909-0242ac120002.png&w=50&q=75"}
+    ]
+}

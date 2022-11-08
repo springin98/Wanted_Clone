@@ -1,0 +1,26 @@
+.All_Contents_Main_Component_Div{
+    padding: 38px 0;
+}
+
+.All_Contents_Main_Bookmark_Btn_Div{
+    margin-bottom: 12px;
+    display: flex;
+    font-weight: 600;
+}
+
+.All_Contents_Main_Bookmark_Btn, .All_Contents_Main_Bookmark_Btn>span{
+    font-size: 15px;
+    color: #36f;
+    display: flex;
+}
+
+.All_Contents_Main_BookmarkIcon_Div{
+    padding-right: 8px;
+}
+.All_Contents_Main_Bookmark_RightIcon{
+    font-size: 10px;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

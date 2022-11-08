@@ -1,0 +1,60 @@
+.Main_Subscribe_Div{
+    background-color: #f7f7f7;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.Main_Subscribe_Div_Div{
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+}
+
+.Main_Subscribe_Text_Div{
+    display: flex;
+    flex-direction: column;
+}
+.Main_Subscribe_Text_Title_Div{}
+.Main_Subscribe_Title{
+    display: flex;
+}
+.Main_Subscribe_Title > img{
+    height: 30px;
+}
+.Main_Subscribe_Title_PlusIcon{
+    width: 28px;
+    height: 28px;
+    margin: 4px 6px 0 6px;
+}
+.Main_Subscribe_Title > h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.Main_Subscribe_Text_Title_Div > span{
+    font-size: 14px;
+    color: #333;
+}
+
+.Main_Subscribe_Subscribe_Button{
+    width: 260px;
+    height: 50px;
+    padding: 0 27px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #36f;
+    margin-top: 25px;
+}
+.Main_Subscribe_Subscribe_Button :hover{
+
+}
+.Main_Subscribe_Subscribe_Button > span{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Main_Subscribe_Img_Div{}
+.Main_Subscribe_Img_Div > img{
+    height: 158px;
+}

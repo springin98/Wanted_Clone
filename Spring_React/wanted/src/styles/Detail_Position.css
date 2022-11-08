@@ -1,0 +1,21 @@
+.Detail_Position_Div{
+    display: flex;
+    justify-content: center;
+}
+
+.Detail_Position_Div_Div{
+    width: 1060px;
+}
+
+.Detail_Position_Title{
+    margin: 0 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.Detail_Position_ul{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}

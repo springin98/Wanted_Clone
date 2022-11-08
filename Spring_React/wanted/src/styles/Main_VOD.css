@@ -1,0 +1,26 @@
+.Main_VOD_Div{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.Main_VOD_Div_Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1060px;
+    border-bottom: 1px solid #e1e2e3;
+}
+
+.Main_SuggestButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 21px 30px;
+    border-radius: 38.5px;
+    line-height: normal;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    background-image: linear-gradient(90deg,#01a9fe -12%,#2f5fef 37%,#046afe 72%,#00d2dd 110%);
+}

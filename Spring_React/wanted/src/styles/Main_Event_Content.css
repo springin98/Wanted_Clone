@@ -1,0 +1,75 @@
+.Main_Event_Content_li{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.Main_Event_Content_Img{
+    width: 522px;
+    height: 273px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+
+.Main_Event_Content_Tag_Div{
+    margin-top: 8px;
+}
+.Main_Event_Tag_style{
+    height: 20px;
+    border: 1px solid;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 0 6px;
+}
+.Main_Event_content_Tag_Education{
+    border-color: #333;
+    color: #333;
+}
+.Main_Event_content_Tag_Article{
+    color: #ff9100;
+    border-color: #ff9100;
+}
+.Main_Event_content_Tag_VOD{
+    color: #5866dc;
+    border-color: #5866dc;
+}
+.Main_Event_content_Tag_Networking{
+    color: #a149e4;
+    border-color: #a149e4;
+}
+
+.Main_Event_content_Tag_Online{
+    border-color: #1c1c1c;
+    background-color: #1c1c1c;
+    margin-right: 5px;
+    color: #fff;
+}
+.Main_Event_content_Tag_Online_svg_Div{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main_Event_content_Tag_Online_span{
+    margin-left: 5px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.Main_Event_Content_Title{
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+.Main_Event_Content_Date{
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #aaa;
+}
