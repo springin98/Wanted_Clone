@@ -104,7 +104,7 @@ const SigninComponent = (props) => {
         ? setNameInputStyle("Signin_Input_blueBorder")
         : setNameInputStyle("Signin_Input_redBorder");
     }
-  }, [nameBoolean]); //isName을 넣지 않은 이유는 그럼 nameonChange가 될 때마다 실행되기 때문이다.
+  }, [nameBoolean, isName.length]); //isName을 넣지 않은 이유는 그럼 nameonChange가 될 때마다 실행되기 때문이다.
 
   function nameWrongText() {
     if (nameBoolean === false) {
@@ -135,7 +135,7 @@ const SigninComponent = (props) => {
         ? setPhoneInputStyle("Signin_Input_blueBorder")
         : setPhoneInputStyle("Signin_Input_redBorder");
     }
-  }, [phoneBoolean]);
+  }, [phoneBoolean, isPhone.length]);
 
   function phoneWrongText() {
     if (phoneBoolean === false) {
@@ -166,7 +166,7 @@ const SigninComponent = (props) => {
         ? setPasswordInputStyle("Signin_Input_blueBorder")
         : setPasswordInputStyle("Signin_Input_redBorder");
     }
-  }, [passwordBoolean]);
+  }, [passwordBoolean, isPassword.length]);
 
   function passwordWrongText() {
     if (passwordBoolean === false) {
@@ -190,7 +190,7 @@ const SigninComponent = (props) => {
     isPassword === isPasswordCollect
       ? setPasswordCollectBoolean(true)
       : setPasswordCollectBoolean(false);
-  }, [isPasswordCollect]);
+  }, [isPasswordCollect, isPassword]);
 
   useEffect(() => {
     if (isPasswordCollect.length === 0) {
@@ -199,7 +199,7 @@ const SigninComponent = (props) => {
         ? setPasswordCollectInputStyle("Signin_Input_blueBorder")
         : setPasswordCollectInputStyle("Signin_Input_redBorder");
     }
-  }, [passwordCollectBoolean]);
+  }, [passwordCollectBoolean, isPasswordCollect.length]);
 
   function passwordCollectWrongText() {
     if (isPasswordCollect !== "") {

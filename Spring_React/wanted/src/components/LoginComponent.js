@@ -25,7 +25,7 @@ const LoginComponent = (props) => {
         ? setEmailInputStyle("Login_Email_input_blueBorder")
         : setEmailInputStyle("Login_Email_input_redBorder");
     }
-  }, [emailBoolean]); //isemail을 넣지 않은 이유는 그럼 nameonChange가 될 때마다 실행되기 때문이다.
+  }, [emailBoolean, isEmail]); //isemail을 넣지 않은 이유는 그럼 nameonChange가 될 때마다 실행되기 때문이다.
 
   function emailWrongText() {
     if (emailBoolean === false) {

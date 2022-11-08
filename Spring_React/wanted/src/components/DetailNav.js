@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import "./../styles/Detail_Nav.css";
 import DetailNavAmount from "./../components/DetailNavAmount";
 import DetailNavButtons from "../components/DetailNavButtons";

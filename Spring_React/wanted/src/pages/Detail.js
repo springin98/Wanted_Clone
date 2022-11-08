@@ -1,5 +1,4 @@
 import "./../styles/Detail.css";
-import dummy from "./../db/DeatilMain.json";
 
 import DetailMain from "./../components/DetailMain";
 import DetailNav from "./../components/DetailNav";
