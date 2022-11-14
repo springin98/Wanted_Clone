@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import FontAwsomeFaBookmark from "./FontAwsomeFaBookmark";
 import FontAwsomeFaBookmarkRegular from "./FontAwsomeFaBookmarkRegular";
-import { useRef, useState } from "react";
+import { useRef, useEffect, useState } from "react";
 
 const DetailPositionContents = (props) => {
   function responseButton() {
@@ -20,23 +20,34 @@ const DetailPositionContents = (props) => {
 
   //북마크 색 변경
   const bookmarkColor = useRef(null);
-  const [bookmarkBoolean, setBookmarkBoolean] = useState(false);
+  const [bookmarkCheck, setBookmarkCheck] = useState();
+
+  useEffect(() => {
+    setBookmarkCheck(props.trueArr.includes(props.id));
+    // console.log(props.id);
+    // console.log(bookmarkCheck);
+    changeColor();
+    // console.log(props.trueArr);
+    // console.log("-----------------------");
+  });
+
+  const changeBoolean = () => {
+    if (bookmarkCheck === false) {
+      props.onBookmarkTrue(props.id);
+    } else {
+      props.onBookmarkFalse(props.id);
+    }
+
+    changeColor();
+  };
   const changeColor = () => {
-    if (bookmarkBoolean === false) {
+    if (bookmarkCheck === true) {
       bookmarkColor.current.style.color = "#36f";
       bookmarkColor.current.style.opacity = "1";
     } else {
       bookmarkColor.current.style.color = "rgb(80, 80, 80)";
       bookmarkColor.current.style.opacity = "0.5";
     }
-  };
-  const changeBoolean = () => {
-    if (bookmarkBoolean === false) {
-      setBookmarkBoolean(true);
-    } else {
-      setBookmarkBoolean(false);
-    }
-    changeColor();
   };
 
   return (
@@ -53,7 +64,7 @@ const DetailPositionContents = (props) => {
           <FontAwsomeFaBookmark />
         </div>
       </button>
-      <Link to={`${props.id}`}>
+      <Link to={`/detail/${props.id}`}>
         <div>
           <img
             src={props.img}

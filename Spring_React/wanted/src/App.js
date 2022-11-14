@@ -26,6 +26,7 @@ import Detail from "./pages/Detail";
 import AllContents from "./pages/AllContents";
 
 import Test from "./pages/Test";
+import Bookmark from "./pages/Bookmark";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/servicecenter" element={<ServiceCenter />} />
+        <Route path="/bookmark" element={<Bookmark />} />
 
         <Route path="/test" element={<Test />} />
       </Route>
