@@ -4,7 +4,6 @@ import dummy from "./../db/DeatilMain.json";
 
 const AllContentsList = ({
   trueArr,
-  idCheckBoolean,
   onBookmarkTrue,
   onBookmarkFalse,
 }) => {
@@ -21,7 +20,6 @@ const AllContentsList = ({
       trueArr={trueArr}
       onBookmarkTrue={onBookmarkTrue}
       onBookmarkFalse={onBookmarkFalse}
-      idCheckBoolean={idCheckBoolean}
     ></DetailPositionContents>
   ));
 
