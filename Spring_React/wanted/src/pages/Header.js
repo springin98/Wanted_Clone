@@ -26,26 +26,9 @@ const Header = () => {
   };
 
   //검색창 닫기
-  const node = useRef();
-
-  useEffect(() => {
-    const clickOutside = (e) => {
-      // 모달이 열려 있고 모달의 바깥쪽을 눌렀을 때 창 닫기
-      if (searchBoolean && node.current && !node.current.contains(e.target)) {
-        setSearchBoolean(false);
-      }
-    };
-
-    document.addEventListener("mousedown", clickOutside);
-
-    return () => {
-      // Cleanup the event listener
-      document.removeEventListener("mousedown", clickOutside);
-    };
-  }, [searchBoolean]);
 
   return (
-    <div className="Header_div" ref={node}>
+    <div className="Header_div">
       <header>
         <div className="Header_Menu">
           <div>
@@ -108,8 +91,12 @@ const Header = () => {
           </div>
         </div>
       </header>
-      {searchBoolean ? <HeaderSearch /> : null}
-      {searchBoolean ? <div className="Header_Search_Gray_Div"></div> : null}
+      {searchBoolean ? 
+      <div>
+      <HeaderSearch/>
+      <div className="Header_Search_Gray_Div" />
+      </div>
+      : null}
     </div>
   );
 };
