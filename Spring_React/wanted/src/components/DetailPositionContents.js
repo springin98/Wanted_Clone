@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 import FontAwsomeFaBookmark from "./FontAwsomeFaBookmark";
 import FontAwsomeFaBookmarkRegular from "./FontAwsomeFaBookmarkRegular";
-import { useRef, useEffect, useState } from "react";
 
 const DetailPositionContents = (props) => {
   function responseButton() {
@@ -19,48 +18,18 @@ const DetailPositionContents = (props) => {
   }
 
   //북마크 색 변경
-  const bookmarkColor = useRef(null);
-  const [bookmarkCheck, setBookmarkCheck] = useState();
-
-  useEffect(() => {
-    setBookmarkCheck(props.trueArr.includes(props.id));
-    // console.log(props.id);
-    // console.log(bookmarkCheck);
-    changeColor();
-    // console.log(props.trueArr);
-    // console.log("-----------------------");
-  });
-
-  const changeBoolean = () => {
-    if (bookmarkCheck === false) {
-      props.onBookmarkTrue(props.id);
-    } else {
-      props.onBookmarkFalse(props.id);
-    }
-
-    changeColor();
-  };
-  const changeColor = () => {
-    if (bookmarkCheck === true) {
-      bookmarkColor.current.style.color = "#36f";
-      bookmarkColor.current.style.opacity = "1";
-    } else {
-      bookmarkColor.current.style.color = "rgb(80, 80, 80)";
-      bookmarkColor.current.style.opacity = "0.5";
-    }
-  };
-
   return (
     <li className="Detail_Position_li">
       <button
         onClick={() => {
-          changeBoolean();
+          props.trueArr.includes(props.id) ? props.onBookmarkFalse(props.id) : props.onBookmarkTrue(props.id)
         }}
       >
         <div className="Detail_Position_li_bookmark_out">
           <FontAwsomeFaBookmarkRegular />
         </div>
-        <div className="Detail_Position_li_bookmark_in" ref={bookmarkColor}>
+        <div 
+        className={props.trueArr.includes(props.id) ? "Detail_Position_li_bookmark_in Detail_Position_li_bookmark_in_true" : "Detail_Position_li_bookmark_in"}>
           <FontAwsomeFaBookmark />
         </div>
       </button>

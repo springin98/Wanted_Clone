@@ -31,6 +31,10 @@
     top: 15px;
     right: 9.5px;
 }
+.Detail_Position_li_bookmark_in_true{
+    color: #36f;
+    opacity: 1;
+}
 
 .Detail_Position_li_Text_Div{
     padding: 14px 0;
