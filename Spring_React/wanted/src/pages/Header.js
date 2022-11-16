@@ -6,18 +6,46 @@ Header.js
  */
 
 import { Link } from "react-router-dom";
+import { useState, useRef, useEffect } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import logo from "./../assets/imgs/logo.png";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 import "./../styles/Header.css";
 import HeaderCategory from "./../components/HeaderCategory";
+import HeaderSearch from "../components/HeaderSearch";
 
 const Header = () => {
+  //검색창 보이게 하기
+  const [searchBoolean, setSearchBoolean] = useState(false);
+
+  const clickSearchBtn = () => {
+    searchBoolean ? setSearchBoolean(false) : setSearchBoolean(true);
+  };
+
+  //검색창 닫기
+  const node = useRef();
+
+  useEffect(() => {
+    const clickOutside = (e) => {
+      // 모달이 열려 있고 모달의 바깥쪽을 눌렀을 때 창 닫기
+      if (searchBoolean && node.current && !node.current.contains(e.target)) {
+        setSearchBoolean(false);
+      }
+    };
+
+    document.addEventListener("mousedown", clickOutside);
+
+    return () => {
+      // Cleanup the event listener
+      document.removeEventListener("mousedown", clickOutside);
+    };
+  }, [searchBoolean]);
+
   return (
-    <div className="Header_div">
+    <div className="Header_div" ref={node}>
       <header>
         <div className="Header_Menu">
           <div>
@@ -60,7 +88,11 @@ const Header = () => {
             </ul>
           </div>
           <div className="Header_Buttons_Div">
-            <button>
+            <button
+              onClick={() => {
+                clickSearchBtn();
+              }}
+            >
               <FontAwesomeIcon
                 icon={faMagnifyingGlass}
                 className="Header_Search_Icon"
@@ -76,6 +108,8 @@ const Header = () => {
           </div>
         </div>
       </header>
+      {searchBoolean ? <HeaderSearch /> : null}
+      {searchBoolean ? <div className="Header_Search_Gray_Div"></div> : null}
     </div>
   );
 };

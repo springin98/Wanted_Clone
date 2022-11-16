@@ -1,0 +1,29 @@
+{
+    "tags": [
+        {
+            "id" : "1",
+            "title": "연봉상위2~5%",
+            "color": "greenblue"
+        },
+        {
+            "id" : "2",
+            "title": "생일선물",
+            "color": "purple"
+        },
+        {
+            "id" : "3",
+            "title": "워크샵",
+            "color": "gray"
+        },
+        {
+            "id" : "4",
+            "title": "퇴사율5%이하",
+            "color": "blue"
+        },
+        {
+            "id" : "5",
+            "title": "맥주",
+            "color": "green"
+        }
+    ]
+}
