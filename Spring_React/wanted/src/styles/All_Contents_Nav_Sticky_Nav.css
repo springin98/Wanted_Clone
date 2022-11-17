@@ -7,8 +7,12 @@
     top: 50px;
     padding-bottom: 20px;
     border-bottom: 1px solid #e1e2e3;
+    z-index: 20;
     background-color: #fff;
-    z-index: 100;
+}
+
+.All_Contents_Nav_Sticky_Div_Div .All_Contents_Nav_Sticky_Div_Div_transparent{
+    background-color: transparent;
 }
 
 .All_Contents_Nav_Category_Div{

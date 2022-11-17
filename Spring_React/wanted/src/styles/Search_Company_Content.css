@@ -1,0 +1,72 @@
+.Search_Company_Content_ul{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.Search_Company_Content_li{
+    display: flex;
+    padding: 21px 20px;
+    margin: 10px;
+    background-color: #fff;
+    width: 510px;
+    justify-content: space-between;
+    box-sizing:border-box;;
+}
+.Search_Company_Content_Div_Div{
+    display: flex;
+}
+
+.Search_Company_Content_Logo{
+    width: 58px;
+    height: 58px;
+    margin-right: 20px;
+}
+
+.Search_Company_Content_text_Div{
+    display: flex;
+    flex-direction: column;
+    height: 58px;
+    justify-content: space-between;
+}
+
+.Search_Company_Content_text_company{
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 4px;
+}
+.Search_Company_Content_text_category{
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.Search_Company_Content_FollowBtn_Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Search_Company_Content_FollowBtn{
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #e1e2e3;
+    white-space: nowrap;
+    background-color: #fff;
+    min-width: 64px;
+    padding: 0 27px;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    font-weight: 700;
+    line-height: normal;
+    box-sizing: border-box;
+    border-radius: 25px;    
+    color: #36f;
+}
+.Search_Company_Content_FollowBtn:hover{
+    color: #002fdb;
+    border-color: #002fdb;
+}

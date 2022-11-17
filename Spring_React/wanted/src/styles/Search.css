@@ -1,0 +1,44 @@
+.Search_Div{
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Search_Title_Div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 160px;
+    background: #fff;
+    border-bottom: 1px solid #e1e2e3;
+}
+.Search_Title{
+    text-align: center;
+    font-size: 48px;
+    line-height: 2;
+    color: #333;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.Search_Content_Div{
+    width: 100%;
+    background-color: #f8f8fa;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+.Search_Content_Div_Div{
+    width: 1060px;
+    display: flex;
+    flex-direction: column;
+}

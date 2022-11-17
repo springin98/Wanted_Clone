@@ -24,9 +24,10 @@ import Privacy from "./pages/Privacy";
 import ServiceCenter from "./pages/ServiceCenter";
 import Detail from "./pages/Detail";
 import AllContents from "./pages/AllContents";
+import Bookmark from "./pages/Bookmark";
+import Search from "./pages/Search";
 
 import Test from "./pages/Test";
-import Bookmark from "./pages/Bookmark";
 
 const App = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/servicecenter" element={<ServiceCenter />} />
         <Route path="/bookmark" element={<Bookmark />} />
+        <Route path="/search" element={<Search />} />
 
         <Route path="/test" element={<Test />} />
       </Route>

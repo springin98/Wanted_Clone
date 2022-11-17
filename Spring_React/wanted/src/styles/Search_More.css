@@ -1,0 +1,40 @@
+.Search_More_Div{
+    border-top: 1px solid #e1e2e3;
+    padding: 70px 0 40px;
+}
+
+.Search_More_Text{
+    font-weight: 500;
+    font-size: 16px;
+}
+.Search_More_Icon_Info{
+    content: "\e9b4";
+    color: #36f;
+    margin-left: 10px;
+}
+
+.Search_More_Text_Text_Div{
+    margin: 150px 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Search_More_Text_Text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.Search_More_Matchup_Btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 34px;
+    background-color: #36f;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}

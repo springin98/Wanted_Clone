@@ -6,7 +6,7 @@ Header.js
  */
 
 import { Link } from "react-router-dom";
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -15,17 +15,20 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 import "./../styles/Header.css";
 import HeaderCategory from "./../components/HeaderCategory";
-import HeaderSearch from "../components/HeaderSearch";
+import ModalPortal from "./ModalPortal";
+import SearchContainer from "../containers/SearchContainer";
 
 const Header = () => {
-  //검색창 보이게 하기
-  const [searchBoolean, setSearchBoolean] = useState(false);
+  //모달창
+  const [modalOpened, setModalOpened] = useState(false);
 
-  const clickSearchBtn = () => {
-    searchBoolean ? setSearchBoolean(false) : setSearchBoolean(true);
+  const handleOpen = () => {
+    setModalOpened(true);
   };
 
-  //검색창 닫기
+  const handleClose = () => {
+    setModalOpened(false);
+  };
 
   return (
     <div className="Header_div">
@@ -71,11 +74,7 @@ const Header = () => {
             </ul>
           </div>
           <div className="Header_Buttons_Div">
-            <button
-              onClick={() => {
-                clickSearchBtn();
-              }}
-            >
+            <button onClick={handleOpen}>
               <FontAwesomeIcon
                 icon={faMagnifyingGlass}
                 className="Header_Search_Icon"
@@ -91,12 +90,12 @@ const Header = () => {
           </div>
         </div>
       </header>
-      {searchBoolean ? 
-      <div>
-      <HeaderSearch/>
-      <div className="Header_Search_Gray_Div" />
-      </div>
-      : null}
+      {modalOpened && (
+        <ModalPortal closePortal={handleClose}>
+          <SearchContainer closePortal={handleClose} />
+        </ModalPortal>
+      )}
+      <div id="root-modal" />
     </div>
   );
 };

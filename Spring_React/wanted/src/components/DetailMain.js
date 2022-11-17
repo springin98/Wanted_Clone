@@ -116,7 +116,7 @@ const DetailMain = (props) => {
       <div className="Detail_Main_CompanyInfo_Div">
         <div className="Detail_Main_CompanyInfo_Div_Div">
           <img
-            src="https://static.wanted.co.kr/images/wdes/0_5.0852ff23.jpg"
+            src={dummy.main[mainContentNum].companyImg}
             alt={dummy.main[mainContentNum].company}
             className="Detail_Main_CompanyLogo"
           />
