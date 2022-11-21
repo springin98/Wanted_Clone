@@ -5,7 +5,6 @@ import HeaderSearch from "../components/HeaderSearch";
 
 const SearchContainer = ({ closePortal }) => {
   const searchKeyword = useSelector((state) => state.search.searchWord);
-  console.log("searchKeyword : " + searchKeyword);
 
   const dispatch = useDispatch();
   const onSearchEnter = useCallback(

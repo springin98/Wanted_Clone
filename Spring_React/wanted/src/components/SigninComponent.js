@@ -242,6 +242,17 @@ const SigninComponent = (props) => {
     passwordCollectBoolean,
   ]);
 
+  //로컬스토리지에 회원정보 저장하기
+  const onClick = () => {
+    localStorage.name = isName;
+    localStorage.phone = isPhone;
+    localStorage.password = isPassword;
+    let keys = Object.keys(localStorage);
+    for (let key of keys) {
+      console.log(localStorage.getItem(key));
+    }
+  };
+
   return (
     <div className="Signin_Div">
       <div className="Signin_Div_Div">
@@ -444,6 +455,7 @@ const SigninComponent = (props) => {
           <button
             className="Signin_Footer_Btn"
             disabled={signinBtn ? "" : "disabled"}
+            onClick={onClick()}
           >
             가입하기
           </button>

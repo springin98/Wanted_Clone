@@ -96,6 +96,13 @@ const LoginComponent = (props) => {
             onClick={() => {
               props.setModalOpen("2");
               props.setEmail(isEmail);
+              localStorage.clear();
+              localStorage.email = isEmail;
+              //localStorage 키 순회하기 (삭제 예정)
+              let keys = Object.keys(localStorage);
+              for (let key of keys) {
+                console.log(localStorage.getItem(key));
+              }
             }}
           >
             이메일로 계속하기
