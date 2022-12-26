@@ -13,7 +13,9 @@ const SearchCompanyContent = () => {
           if (
             item.company.toLowerCase().includes(searchKeyword.toLowerCase())
           ) {
-            return item;
+            return (item = { item });
+          } else {
+            return null;
           }
         })
         .map((item) => (
